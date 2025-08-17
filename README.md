@@ -19,22 +19,26 @@ now execute the following command to install all the required dependencies:
 pip install requirements.txt
 
 
-market orders example run: python src/market_orders.py BTCUSDT BUY 0.01
+market orders example run: 
+(from root directory)
+python src/market_orders.py BTCUSDT BUY 0.01
 
-limit orders example run: python src/limit_orders.py BTCUSDT BUY 0.01 28000.00
+limit orders example run: 
+(from root directory)
+python src/limit_orders.py BTCUSDT BUY 0.01 28000.00
 
 
 stop limit order example run: 
-cd src
+cd src (execute only if you are in root directory)
 python advanced/stop_limit_order.py USDT-M SELL 0.01 59000 58900
 
 
 twap example run: 
-cd src
+cd src (execute only if you are in root directory)
 python advanced/twap.py BTCUSDT BUY 0.5 30 
 
 
 oco example run: 
-cd src
+cd src (execute only if you are in root directory)
 python advanced/oco.py BTCUSDT SELL 0.01 65000 55000
 
