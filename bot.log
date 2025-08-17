@@ -1,0 +1,18 @@
+2025-08-18 03:08:21,702 - INFO - Placing a MARKET BUY order for 0.01 BTCUSDT
+2025-08-18 03:08:22,251 - INFO - Order placed successfully! 
+2025-08-18 03:08:22,251 - INFO -   - Order ID: 5593798332
+2025-08-18 03:08:22,252 - INFO -   - Symbol: BTCUSDT
+2025-08-18 03:08:22,252 - INFO -   - Side: BUY
+2025-08-18 03:08:22,252 - INFO -   - Type: MARKET
+2025-08-18 03:08:22,252 - INFO -   - Status: NEW
+2025-08-18 03:08:22,252 - INFO -   - Original Quantity: 0.010
+2025-08-18 03:08:22,252 - INFO -   - Executed Quantity: 0.000
+2025-08-18 03:08:28,325 - INFO - Placing a LIMIT BUY order for 0.01 BTCUSDT at 28000.0
+2025-08-18 03:08:28,708 - INFO - Order placed successfully! 
+2025-08-18 03:08:28,708 - INFO -   - Order ID: 5593798458
+2025-08-18 03:08:28,708 - INFO -   - Symbol: BTCUSDT
+2025-08-18 03:08:28,708 - INFO -   - Side: BUY
+2025-08-18 03:08:28,708 - INFO -   - Type: LIMIT
+2025-08-18 03:08:28,708 - INFO -   - Status: NEW
+2025-08-18 03:08:28,708 - INFO -   - Placed Price: 28000.00
+2025-08-18 03:08:28,708 - INFO -   - Placed Quantity: 0.010
