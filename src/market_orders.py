@@ -5,7 +5,7 @@ import logging
 from binance.client import Client
 from binance.enums import *
 from binance.exceptions import BinanceAPIException, BinanceRequestException
-
+from bot_client import BasicBot
 
 logging.basicConfig(
     level=logging.INFO,
@@ -43,8 +43,12 @@ else:
     logging.error("Error: Side must be 'BUY' or 'SELL'.")
     sys.exit(1)
 
-client = Client(api_key, api_secret, testnet=True)
-
+try:
+    bot = BasicBot(api_key, api_secret, testnet=True)
+    client = bot.client
+except Exception as e:
+    logging.error(f"Failed to initialize Binance client: {e}")
+    sys.exit(1)
 try:
     logging.info(f"Placing a MARKET {side_str} order for {quantity} {symbol}")
     
