@@ -48,3 +48,15 @@
 2025-08-18 03:00:33,010 - INFO - Take-Profit order placed successfully! 
 2025-08-18 03:00:33,010 - INFO -   - Order ID: 5593784040
 2025-08-18 03:00:33,380 - ERROR - Binance API Error (Code -2021): Order would immediately trigger.
+2025-08-18 03:03:57,136 - ERROR - An unexpected error occurred in the main process: 'Client' object has no attribute 'futures_get_all_tickers'
+2025-08-18 03:05:34,206 - INFO - Placed initial BUY order at 60500.0. Order ID: 5593794204
+2025-08-18 03:05:34,579 - INFO - Placed initial BUY order at 61000.0. Order ID: 5593794208
+2025-08-18 03:05:34,713 - INFO - Placed initial BUY order at 61500.0. Order ID: 5593794212
+2025-08-18 03:05:35,089 - INFO - Placed initial BUY order at 62000.0. Order ID: 5593794221
+2025-08-18 03:05:35,231 - INFO - Placed initial BUY order at 62500.0. Order ID: 5593794223
+2025-08-18 03:05:35,364 - INFO - Placed initial BUY order at 63000.0. Order ID: 5593794224
+2025-08-18 03:05:35,499 - INFO - Placed initial BUY order at 63500.0. Order ID: 5593794229
+2025-08-18 03:05:35,948 - INFO - Placed initial BUY order at 64000.0. Order ID: 5593794232
+2025-08-18 03:05:36,323 - INFO - Placed initial BUY order at 64500.0. Order ID: 5593794244
+2025-08-18 03:05:36,455 - INFO - Placed initial BUY order at 65000.0. Order ID: 5593794247
+2025-08-18 03:05:36,455 - INFO - Grid trading strategy is now active. Monitoring for filled orders...
