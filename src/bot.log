@@ -25,3 +25,26 @@
 2025-08-18 02:48:35,376 - INFO -   - Status: NEW
 2025-08-18 02:48:35,376 - INFO -   - Executed Quantity: 0.000
 2025-08-18 02:48:35,376 - INFO - Waiting for 180.00 seconds before next order...
+2025-08-18 02:55:07,021 - INFO - Placing OCO order for 0.01 BTCUSDT
+2025-08-18 02:55:07,022 - INFO -   - Limit Price (Take Profit): 65000.0
+2025-08-18 02:55:07,022 - INFO -   - Stop Price (Stop Loss): 55000.0
+2025-08-18 02:55:07,023 - INFO -   - Stop-Limit Price: 54900.0
+2025-08-18 02:55:07,405 - ERROR - Binance API Error (Code -1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2025-08-18 02:58:02,841 - INFO - Placing simulated OCO for 0.01 BTCUSDT
+2025-08-18 02:58:02,842 - INFO -   - Take-Profit Limit Price: 65000.0
+2025-08-18 02:58:02,842 - INFO -   - Stop-Loss Price: 55000.0
+2025-08-18 02:58:03,346 - INFO - Take-Profit order placed successfully! 
+2025-08-18 02:58:03,347 - INFO -   - Order ID: 5593780105
+2025-08-18 02:58:03,725 - ERROR - Binance API Error (Code -1102): Mandatory parameter 'price' was not sent, was empty/null, or malformed.
+2025-08-18 03:00:05,932 - INFO - Placing simulated OCO for 0.01 BTCUSDT
+2025-08-18 03:00:05,933 - INFO -   - Take-Profit Limit Price: 65000.0
+2025-08-18 03:00:05,933 - INFO -   - Stop-Loss Trigger Price: 55000.0
+2025-08-18 03:00:06,159 - INFO - Take-Profit order placed successfully! 
+2025-08-18 03:00:06,159 - INFO -   - Order ID: 5593783078
+2025-08-18 03:00:06,159 - ERROR - An unexpected error occurred: name 'ORDER_TYPE_STOP_MARKET' is not defined
+2025-08-18 03:00:32,617 - INFO - Placing simulated OCO for 0.01 BTCUSDT
+2025-08-18 03:00:32,618 - INFO -   - Take-Profit Limit Price: 65000.0
+2025-08-18 03:00:32,618 - INFO -   - Stop-Loss Trigger Price: 55000.0
+2025-08-18 03:00:33,010 - INFO - Take-Profit order placed successfully! 
+2025-08-18 03:00:33,010 - INFO -   - Order ID: 5593784040
+2025-08-18 03:00:33,380 - ERROR - Binance API Error (Code -2021): Order would immediately trigger.
